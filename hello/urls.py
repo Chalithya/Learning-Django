@@ -5,6 +5,7 @@ urlpatterns = [
     path("", views.index, name= "index"),
     path("floki", views.floki, name= "floki"),
     path("valorant", views.valorant, name= "valorant"),
-    path("<str:name>", views.greet, name="great")
+    path("<str:name>", views.greet, name="great"),
+   
 
 ]
